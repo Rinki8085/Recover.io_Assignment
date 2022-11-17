@@ -1,3 +1,5 @@
+/* ---------------- homepage ------------- */
+
 .h2{
    text-align:center;
    background: -webkit-linear-gradient(purple, red);
@@ -24,8 +26,9 @@
    background-image: linear-gradient(to bottom,purple,red);
 }
 
-.partition>div>button{
+button{
    border:none;
+   border-radius:2px ;
    background-image: linear-gradient(to right,purple,red);
    color:white;
    height:35px;
@@ -33,9 +36,33 @@
    font-size:20px;
    letter-spacing: 0.1em;
    cursor:pointer;
+   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .partition>div>button>a{
    text-decoration:none;
    color:white;
+}
+
+/* --------------------- admin ---------------- */
+
+.login_form{
+   width:400px;
+   margin:auto;
+   padding:20px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+form>div{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding:10px;
+}
+
+input[type='email'],input[type='password']{
+   height:25px;
+   border:none;
+   outline:none;
+   border-bottom:1px solid teal;
 }

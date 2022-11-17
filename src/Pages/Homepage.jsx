@@ -19,7 +19,7 @@ function HomePage(){
                <div></div>
                <div>
                   <button>
-                     <Link to='/writer'>Content Writer</Link>
+                     <Link to='/writeBlogs'>Content Writer</Link>
                   </button>
                </div>
             </div>
