@@ -1,0 +1,57 @@
+{
+  "blogs":[
+{
+  "id":1,
+  "name":"cerulean",
+  "posts":[
+     {
+        "id":1,
+        "heading":"Trying and searching and wanting",
+        "content":"I am sitting on my balcony. It is spring and there is a little bit of heat in the sun. The balcony looks out over a road. The road is usually busy… an endless stream of trucks and cars but right now there is no traffic. Everyone is self-isolating. The machine has stopped. It feels…"
+     }
+    ],
+    "approved":false
+},
+{
+  "id":2,
+  "name":"fuchsia rose",
+  "posts":[
+     {
+        "id":1,
+        "heading":"Connecting to care",
+        "content":"The absence of a deep emotional connection between humans and the natural world is at the root of the environmental crisis. Can you think of a place in nature that you know really well? Close your eyes for a moment and see what comes up. Can you visualise the place in exquisite detail? The sounds,…"
+     },
+     {
+        "id":2,
+        "heading":"Connecting with nature",
+        "content":"The world is animated by the wind. This invisible, mysterious force can bring a landscape alive. Its absence can cast a calm stillness over the earth. On barren mountain tops its power is barely perceptible; in forests and seas its presence becomes manifest. Winds are wild, and sometimes destructive. When we look deeply into the…"
+     }
+  ],
+  "approved":false
+},
+{
+  "id":3,
+  "name":"true red",
+  "posts":[
+    {
+     "id":1,
+     "heading":"Nature is teacher",
+     "content":"A number of years ago I went on holiday to a beautiful part of Portugal. We stayed in a converted farmhouse in the middle of a national park. The farmhouse was in a valley. We arrived in the evening when the birds were just starting to roost. It was still warm and the air smelled…"
+    }
+  ],
+  "approved":false
+},
+{
+  "id":4,
+  "name":"aqua sky",
+  "posts":[
+     {
+        "id":1,
+        "heading":"Society - THe soil in which we grow",
+        "content":"In order for any plant to grow and flourish to its full potential, it needs the right conditions. The soil is all important. Everything grows in the soil. If the soil is good and you have the right amount of sunshine and water everything takes care of itself. Nature follows its own course. We don’t…"
+     }
+  ],
+  "approved":false
+}
+]
+}

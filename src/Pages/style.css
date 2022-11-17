@@ -1,0 +1,41 @@
+.h2{
+   text-align:center;
+   background: -webkit-linear-gradient(purple, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size:30px;
+}
+
+.partition{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   height:200px;
+   margin:40px 20px 20px 20px;
+}
+
+.partition>div{
+   display: flex;
+   align-items: center;
+}
+
+.partition>div:nth-child(2){
+   width:5px;
+   background-image: linear-gradient(to bottom,purple,red);
+}
+
+.partition>div>button{
+   border:none;
+   background-image: linear-gradient(to right,purple,red);
+   color:white;
+   height:35px;
+   padding:5px;
+   font-size:20px;
+   letter-spacing: 0.1em;
+   cursor:pointer;
+}
+
+.partition>div>button>a{
+   text-decoration:none;
+   color:white;
+}
