@@ -1,6 +1,6 @@
 import React,{useState, useDisptach, useEffect} from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { adminLogin } from '../../Redux/AuthReducer/action';
+import { adminLogin, writerLogin } from '../../Redux/AuthReducer/action';
 import '../style.css';
 
 function AdminLogin(){
@@ -15,7 +15,6 @@ function AdminLogin(){
          email,
          password 
       }
-
       dispatch(adminLogin(payload));
    }
 
