@@ -12,7 +12,7 @@ const getBlogs = (dispatch)=>{
 const postBlogs = (id)=>(dispatch)=>{
    dispatch({type:types.USER_BLOG_POST_REQUEST});
    let name = localStorage.getItem('name');
-   return axios.get(`http://localhost:8080/blogs?name=${name}`)
+   return axios.post(`http://localhost:8080/blogs?name=${name}`)
       .then((res)=>console.log(res.data))
       .catch((err)=>console.log(dispatch({type:types.USER_BLOG_POST_FAILURE})))
 }
